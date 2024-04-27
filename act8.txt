@@ -54,14 +54,29 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               height: 200,
               width: 150,
-              alignment: Alignment.bottomLeft,
-              child: const Padding(
-                padding: EdgeInsets.only(left: 14, bottom: 14),
-                child: Text(
-                  'Title\nhello world',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 12,
+              child: Align(
+                alignment: Alignment.bottomLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 14, bottom: 14),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Text(
+                        'Title',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 24,
+                        ),
+                      ),
+                      Text(
+                        'Hello World',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -75,14 +90,29 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               height: 200,
               width: 150,
-              alignment: Alignment.bottomLeft,
-              child: const Padding(
-                padding: EdgeInsets.only(left: 14, bottom: 14),
-                child: Text(
-                  'Title\nhello world',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 12,
+              child: Align(
+                alignment: Alignment.bottomLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 14, bottom: 14),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Text(
+                        'Title',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 24,
+                        ),
+                      ),
+                      Text(
+                        'Hello World',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
@@ -96,14 +126,29 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               height: 200,
               width: 150,
-              alignment: Alignment.bottomLeft,
-              child: const Padding(
-                padding: EdgeInsets.only(left: 14, bottom: 14),
-                child: Text(
-                  'Title\nhello world',
-                  style: TextStyle(
-                    color: Colors.black,
-                    fontSize: 12,
+              child: Align(
+                alignment: Alignment.bottomLeft,
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 14, bottom: 14),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Text(
+                        'Title',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 24,
+                        ),
+                      ),
+                      Text(
+                        'Hello World',
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
